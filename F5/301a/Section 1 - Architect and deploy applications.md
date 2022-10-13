@@ -2,13 +2,10 @@
 
 ## 1.01 - Determine which configuration objects are necessary to optimally deploy an application
 
-    - Determine least amount of configuration objects needed to deploy application
-
-    - Understand dependencies of configuration objects
-
-    - Understand needed LTM profiles to deploy an application
-
-    - Identify unnecessary configuration objects
+- Determine least amount of configuration objects needed to deploy application
+- Understand dependencies of configuration objects
+- Understand needed LTM profiles to deploy an application
+- Identify unnecessary configuration objects
 
 ## 1.02 - Determine whether or not an application can be deployed with only the LTM module provisioned
 
