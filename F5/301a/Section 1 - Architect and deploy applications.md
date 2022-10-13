@@ -39,3 +39,30 @@
 
 - Understand connection based architecture and when/how to apply
 - SNAT/Persistence/SSL settings in multi-tiered environment
+
+## 1.07 - Distinguish between packet versus connection based load balancing
+
+- Demonstrate when to use packet based load balancing
+- Demonstrate when to use connection based load balancing
+
+## 1.08 - Determine which configuration objects are necessary for applications that need the original client IP address
+
+- Determine when SNAT is required
+- Determine the required SNAT type
+- Identify functions of X-Forwarder-For
+- Outline the steps needed to return the traffic to LTM without SNAT
+
+## 1.09 - Identify the matching order of multiple virtual servers
+
+- Identify which virtual server would process particular traffic
+- Identify why the virtual server fails to receive traffic
+
+## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
+
+- Determine what virtual server profile is necessary
+- Determine when persistence profile is necessary
+
+## 1.11 - Describe how to deploy applications using iApp templates
+
+- Recognize how to modify an application depoyed with an iApp
+- Identify objects created by an iApp
