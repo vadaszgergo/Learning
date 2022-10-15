@@ -73,15 +73,16 @@
 - Recognize how to modify an application depoyed with an iApp
 - Identify objects created by an iApp
 
-<details><summary>## 1.09 - Identify the matching order of multiple virtual servers</summary>
+<details><summary>Identify which virtual server would process particular traffic</summary>
 <p>
-- Identify which virtual server would process particular traffic  
     - https://support.f5.com/csp/article/K14800  
     ```
     Destination address  
     Source address  
     Port  
     ```
-- Identify why the virtual server fails to receive traffic
+
 </p>
 </details>
+
+- Identify why the virtual server fails to receive traffic
