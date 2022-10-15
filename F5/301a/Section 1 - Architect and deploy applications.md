@@ -3,10 +3,6 @@
 ## 1.01 - Determine which configuration objects are necessary to optimally deploy an application
 
 - Determine least amount of configuration objects needed to deploy application
-
-test line 1  
-test line 2  
-
 - Understand dependencies of configuration objects
 - Understand needed LTM profiles to deploy an application
 - Identify unnecessary configuration objects
@@ -59,6 +55,7 @@ test line 2
 ## 1.09 - Identify the matching order of multiple virtual servers
 
 - Identify which virtual server would process particular traffic
+    https://support.f5.com/csp/article/K14800
 - Identify why the virtual server fails to receive traffic
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
