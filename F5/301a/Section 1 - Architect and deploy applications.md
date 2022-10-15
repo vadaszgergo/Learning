@@ -73,7 +73,7 @@
 - Recognize how to modify an application depoyed with an iApp
 - Identify objects created by an iApp
 
-<details><summary>Identify which virtual server would process particular traffic</summary>
+    <details><summary>Identify which virtual server would process particular traffic</summary>
 <p>
     - https://support.f5.com/csp/article/K14800  
     ```
