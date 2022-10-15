@@ -56,9 +56,9 @@
 
 - Identify which virtual server would process particular traffic  
     - https://support.f5.com/csp/article/K14800  
-    Destination address
+    'Destination address
     Source address
-    Port
+    Port'
 - Identify why the virtual server fails to receive traffic
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
