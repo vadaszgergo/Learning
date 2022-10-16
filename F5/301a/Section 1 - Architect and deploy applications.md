@@ -54,7 +54,7 @@
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
-<details><summary>Identify which virtual server would process particular traffic</summary>
+- <details><summary>Identify which virtual server would process particular traffic</summary>
     <p>
             - https://support.f5.com/csp/article/K14800  
     </p>
