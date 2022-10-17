@@ -43,7 +43,14 @@
 ## 1.07 - Distinguish between packet versus connection based load balancing
 
 - Demonstrate when to use packet based load balancing
+    - When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
+    https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
+    Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082
 - Demonstrate when to use connection based load balancing
+    - Fully proxy loadbalancing, BIG-IP is acting as endpoint and originator of protocols  
+    https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/
+    https://support.f5.com/csp/article/K55185917  
+    https://support.f5.com/csp/article/K8082  
 
 ## 1.08 - Determine which configuration objects are necessary for applications that need the original client IP address
 
