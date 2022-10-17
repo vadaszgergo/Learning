@@ -54,18 +54,10 @@
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
--   <details><summary>Identify which virtual server would process particular traffic</summary>
-    <p>
-    #### Test line
+- Identify which virtual server would process particular traffic
     - https://support.f5.com/csp/article/K14800  
-    
-    </p>
-    </details>
--   <details><summary>Identify why the virtual server fails to receive traffic</summary>
-    <p>
-            - test line 
-    </p>
-    </details>
+    ##### Test line  
+- Identify why the virtual server fails to receive traffic
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
 
