@@ -45,7 +45,8 @@
 - Demonstrate when to use packet based load balancing
     - When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
     https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
-    Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082
+    Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082  
+
 - Demonstrate when to use connection based load balancing
     - Fully proxy loadbalancing, BIG-IP is acting as endpoint and originator of protocols  
     https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
@@ -55,12 +56,15 @@
 ## 1.08 - Determine which configuration objects are necessary for applications that need the original client IP address
 
 - Determine when SNAT is required
-    - https://techdocs.f5.com/en-us/bigip-14-1-0/big-ip-tmos-routing-administration-14-1-0/nats-and-snats.html
+    - https://techdocs.f5.com/en-us/bigip-14-1-0/big-ip-tmos-routing-administration-14-1-0/nats-and-snats.html  
+
 - Determine the required SNAT type
     - None, Automap, SNAT Pool, Intelligent SNAT (ony within iRule)
-    - https://support.f5.com/csp/article/K7820
+    - https://support.f5.com/csp/article/K7820  
+
 - Identify functions of X-Forwarder-For
-    - https://support.f5.com/csp/article/K4816
+    - https://support.f5.com/csp/article/K4816  
+    
 - Outline the steps needed to return the traffic to LTM without SNAT
     - Backend servers need to point to the BIG-IP as default gateway otherwise assymetric routing will happen and it can cause issues
 
