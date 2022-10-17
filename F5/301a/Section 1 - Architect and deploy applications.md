@@ -2,7 +2,7 @@
 
 ## 1.01 - Determine which configuration objects are necessary to optimally deploy an application
 
-- Determine least amount of configuration objects needed to deploy application
+- Determine least amount of configuration objects needed to deploy application  
 - Understand dependencies of configuration objects
 - Understand needed LTM profiles to deploy an application
 - Identify unnecessary configuration objects
@@ -57,6 +57,7 @@
 -   <details><summary>Identify which virtual server would process particular traffic</summary>
     <p>
             - https://support.f5.com/csp/article/K14800  
+    ### Test line
     </p>
     </details>
 -   <details><summary>Identify why the virtual server fails to receive traffic</summary>
