@@ -42,7 +42,7 @@
 
 ## 1.07 - Distinguish between packet versus connection based load balancing
 
-- <details><summary>Demonstrate when to use packet based load balancing</summary>
+<details><summary>Demonstrate when to use packet based load balancing</summary>
     <p>
     When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
     https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
