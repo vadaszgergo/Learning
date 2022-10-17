@@ -50,13 +50,13 @@
 - Determine when SNAT is required
 - Determine the required SNAT type
 - Identify functions of X-Forwarder-For
+    - https://support.f5.com/csp/article/K4816
 - Outline the steps needed to return the traffic to LTM without SNAT
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
 - Identify which virtual server would process particular traffic
-    - https://support.f5.com/csp/article/K14800  
-    #### Test line  
+    - https://support.f5.com/csp/article/K14800   
 - Identify why the virtual server fails to receive traffic
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
