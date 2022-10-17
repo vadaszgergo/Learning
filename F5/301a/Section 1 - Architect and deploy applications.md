@@ -83,9 +83,13 @@
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
-- Identify which bg server would process particular traffic
-    - https://support.f5.com/csp/article/K14800   
-- Identify why the virtual server fails to receive traffic
+<details><summary>Identify which bg server would process particular traffic</summary>
+
+* https://support.f5.com/csp/article/K14800   
+</details>
+
+<details><summary>Identify why the virtual server fails to receive traffic</summary>
+</details>
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
 
