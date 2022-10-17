@@ -83,7 +83,7 @@
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
-<details><summary>Identify which bg server would process particular traffic</summary>
+<details><summary>Identify which background server would process particular traffic</summary>
 
 * https://support.f5.com/csp/article/K14800   
 </details>
@@ -93,10 +93,14 @@
 
 ## 1.10 - Given a basic iRule's functionality, determine the profiles and configuration options necessary to implement the iRule
 
-- Determine what virtual server profile is necessary
-- Determine when persistence profile is necessary
+<details><summary>Determine what virtual server profile is necessary</summary>
+</details>
+<details><summary>Determine when persistence profile is necessary</summary>
+</details>
 
 ## 1.11 - Describe how to deploy applications using iApp templates
 
-- Recognize how to modify an application depoyed with an iApp
-- Identify objects created by an iApp
+<details><summary>Recognize how to modify an application depoyed with an iApp</summary>
+</details>
+<details><summary>Identify objects created by an iApp</summary>
+</details>
