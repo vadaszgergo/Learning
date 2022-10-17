@@ -49,11 +49,13 @@
 * Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082  
 </details>
 
-- Demonstrate when to use connection based load balancing
-    - Fully proxy loadbalancing, BIG-IP is acting as endpoint and originator of protocols  
-    https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
-    https://support.f5.com/csp/article/K55185917  
-    https://support.f5.com/csp/article/K8082  
+<details><summary>Demonstrate when to use connection based load balancing</summary>
+
+* Fully proxy loadbalancing, BIG-IP is acting as endpoint and originator of protocols  
+* https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
+* https://support.f5.com/csp/article/K55185917  
+* https://support.f5.com/csp/article/K8082  
+</details>
 
 ## 1.08 - Determine which configuration objects are necessary for applications that need the original client IP address
 
