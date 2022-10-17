@@ -48,14 +48,18 @@
 ## 1.08 - Determine which configuration objects are necessary for applications that need the original client IP address
 
 - Determine when SNAT is required
+    - https://techdocs.f5.com/en-us/bigip-14-1-0/big-ip-tmos-routing-administration-14-1-0/nats-and-snats.html
 - Determine the required SNAT type
+    - None, Automap, SNAT Pool, Intelligent SNAT (ony within iRule)
+    - https://support.f5.com/csp/article/K7820
 - Identify functions of X-Forwarder-For
     - https://support.f5.com/csp/article/K4816
 - Outline the steps needed to return the traffic to LTM without SNAT
+    - Backend servers need to point to the BIG-IP as default gateway otherwise assymetric routing will happen and it can cause issues
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
-- Identify which virtual server would process particular traffic
+- Identify which bg server would process particular traffic
     - https://support.f5.com/csp/article/K14800   
 - Identify why the virtual server fails to receive traffic
 
