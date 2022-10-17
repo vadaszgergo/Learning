@@ -9,36 +9,54 @@
 
 ## 1.02 - Determine whether or not an application can be deployed with only the LTM module provisioned
 
-- Identify the functionality of LTM configuration objects
-- Identify LTM profile settings to deploy an application
-- Determine capabilities of LTM configuration objects
+<details><summary>Identify the functionality of LTM configuration objects</summary>
+</details>
+<details><summary>Identify LTM profile settings to deploy an application</summary>
+</details>
+<details><summary>Determine capabilities of LTM configuration objects</summary>
+</details>
 
 ## 1.03 - Identify the difference between deployments (one arm, two arm, npath, Direct Server Return/DSR)
 
-- Identify configuration objects needed for L2/L3 npath routing
-- Determine how the IP address changes when using DSR
-- Determine how IP addresses change when using a fully proxy deployment
-- Plan the network considerations for one arm and two arm deployments
-- Understand the importance of auto last-hop
+<details><summary>Identify configuration objects needed for L2/L3 npath routing</summary>
+</details>
+<details><summary>Determine how the IP address changes when using DSR</summary>
+</details>
+<details><summary>Determine how IP addresses change when using a fully proxy deployment</summary>
+</details>
+<details><summary>Plan the network considerations for one arm and two arm deployments</summary>
+</details>
+<details><summary>Understand the importance of auto last-hop</summary>
+</details>
 
 ## 1.04 - Choose correct profiles and settings to fit application requirements
 
-- Identify LTM profile settings to deploy OneConnect
-- Determine which profiles are needed to deploy an application
-- Compare and contrast different communication protocols (TCP, UDP, FastL4)
-- Compare performance impacts of LTM profile settings
+<details><summary>Identify LTM profile settings to deploy OneConnect</summary>
+</details>
+<details><summary>Determine which profiles are needed to deploy an application</summary>
+</details>
+<details><summary>Compare and contrast different communication protocols (TCP, UDP, FastL4)</summary>
+</details>
+<details><summary>Compare performance impacts of LTM profile settings</summary>
+</details>
 
 ## 1.05 - Choose virtual server type and load balancing type to fit application requirements
 
-- Determine the difference between L2-L3 virtual servers
-- Compare and contrast standard and FastL4 virtual server types
-- Compare and contrast different load balancing methods
-- Identify different load balancing method use cases
+<details><summary>Determine the difference between L2-L3 virtual servers</summary>
+</details>
+<details><summary>Compare and contrast standard and FastL4 virtual server types</summary>
+</details>
+<details><summary>Compare and contrast different load balancing methods</summary>
+</details>
+<details><summary>Identify different load balancing method use cases</summary>
+</details>
 
 ## 1.06 - Determine how to architect and deploy multi-tier applications using LTM
 
-- Understand connection based architecture and when/how to apply
-- SNAT/Persistence/SSL settings in multi-tiered environment
+<details><summary>Understand connection based architecture and when/how to apply</summary>
+</details>
+<details><summary>SNAT/Persistence/SSL settings in multi-tiered environment</summary>
+</details>
 
 ## 1.07 - Distinguish between packet versus connection based load balancing
 
