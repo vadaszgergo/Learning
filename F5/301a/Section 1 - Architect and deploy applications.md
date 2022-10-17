@@ -65,15 +65,21 @@
 * https://techdocs.f5.com/en-us/bigip-14-1-0/big-ip-tmos-routing-administration-14-1-0/nats-and-snats.html  
 </details>
 
-- Determine the required SNAT type
-    - None, Automap, SNAT Pool, Intelligent SNAT (ony within iRule)
-    - https://support.f5.com/csp/article/K7820  
+<details><summary>Determine the required SNAT type</summary>
 
-- Identify functions of X-Forwarder-For
-    - https://support.f5.com/csp/article/K4816  
+* None, Automap, SNAT Pool, Intelligent SNAT (ony within iRule)  
+* https://support.f5.com/csp/article/K7820  
+</details>
 
-- Outline the steps needed to return the traffic to LTM without SNAT
-    - Backend servers need to point to the BIG-IP as default gateway otherwise assymetric routing will happen and it can cause issues
+<details><summary>Identify functions of X-Forwarder-For</summary>
+
+* https://support.f5.com/csp/article/K4816  
+</details>
+
+<details><summary>Outline the steps needed to return the traffic to LTM without SNAT</summary>
+
+* Backend servers need to point to the BIG-IP as default gateway otherwise assymetric routing will happen and it can cause issues  
+</details>
 
 ## 1.09 - Identify the matching order of multiple virtual servers
 
