@@ -43,9 +43,9 @@
 ## 1.07 - Distinguish between packet versus connection based load balancing
 
 <details><summary>Demonstrate when to use packet based load balancing</summary>
-    When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
-    https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
-    Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082  
+    - When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
+    - https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
+    - Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082  
 </details>
 
 - Demonstrate when to use connection based load balancing
