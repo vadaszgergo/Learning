@@ -42,10 +42,13 @@
 
 ## 1.07 - Distinguish between packet versus connection based load balancing
 
-- Demonstrate when to use packet based load balancing
-    - When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
+- <details><summary>Demonstrate when to use packet based load balancing</summary>
+    <p>
+    When only L3/L4 forwarding is needed, no need for any higher level inspection or decision making  
     https://ipwithease.com/packet-based-design-vs-full-proxy-design-in-f5/  
     Example: Performance Layer4 virtual server https://support.f5.com/csp/article/K8082  
+    </p>
+    </details>
 
 - Demonstrate when to use connection based load balancing
     - Fully proxy loadbalancing, BIG-IP is acting as endpoint and originator of protocols  
@@ -64,7 +67,7 @@
 
 - Identify functions of X-Forwarder-For
     - https://support.f5.com/csp/article/K4816  
-    
+
 - Outline the steps needed to return the traffic to LTM without SNAT
     - Backend servers need to point to the BIG-IP as default gateway otherwise assymetric routing will happen and it can cause issues
 
