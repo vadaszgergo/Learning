@@ -25,11 +25,24 @@
 <details><summary>Identify configuration objects needed for L2/L3 npath routing</summary>
 
 * L2 nPath:  
-    - default route on servers should point to the router instead of the BIG-IP
+    - https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-local-traffic-manager-implementations-14-0-0/configuring-npath-routing.html
+    - Default route on servers should point to the router instead of the BIG-IP
+    - Servers should have the virtual server IP configured as loopback IPs
     - FastL4 profile with Loose Close setting
     - Same FastL4 profile with TCP Close Timeout setting same as the profile idle timeout
     - Server pool containing the backend servers
     - Virtual server with Performance (L4) type and previously created FastL4 profile
+    - Same virtual server with Port and Address translation disabled
+
+* L3 nPath:
+    - https://support.f5.com/csp/article/K13403
+    - Enable monitor encapsulation variable: *modify sys db tm.monitorencap value enable*
+    - Server pool with encapsulation profile (IPIP or GRE), real server IPs
+    - Transparent monitor monitoring the virtual server IP on the backend servers (loopback)
+    - FastL4 profile with disabled hardware acceleration (PVA)
+    - Virtual server with Translate Address disabled
+    - Loopback IP on backend servers same as the Virtual Server IP
+    - Encapsulation tunnel on backend servers 
 
 </details>
 <details><summary>Determine how the IP address changes when using DSR</summary>
