@@ -23,6 +23,14 @@
 ## 1.03 - Identify the difference between deployments (one arm, two arm, npath, Direct Server Return/DSR)
 
 <details><summary>Identify configuration objects needed for L2/L3 npath routing</summary>
+
+* L2 nPath:  
+    - default route on servers should point to the router instead of the BIG-IP
+    - FastL4 profile with Loose Close setting
+    - Same FastL4 profile with TCP Close Timeout setting same as the profile idle timeout
+    - Server pool containing the backend servers
+    - Virtual server with Performance (L4) type and previously created FastL4 profile
+
 </details>
 <details><summary>Determine how the IP address changes when using DSR</summary>
 </details>
@@ -89,7 +97,7 @@
 
 <details><summary>Determine the required SNAT type</summary>
 
-* None, Automap, SNAT Pool, Intelligent SNAT (ony within iRule)  
+* None, Automap, SNAT Pool, Intelligent SNAT (only within iRule)  
 * https://support.f5.com/csp/article/K7820  
 </details>
 
