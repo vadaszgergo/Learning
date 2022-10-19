@@ -46,6 +46,18 @@
 
 </details>
 <details><summary>Determine how the IP address changes when using DSR</summary>
+
+* Initial traffic
+| Source IP  | Destination IP |
+| ------------- | ------------- |
+| Client original IP  | Virtual Server IP  |
+| Client original IP  | Backend server IP  |
+
+* Reply traffic
+| Source IP  | Destination IP |
+| ------------- | ------------- |
+| Backend server IP  | Client original IP  |
+
 </details>
 <details><summary>Determine how IP addresses change when using a fully proxy deployment</summary>
 </details>
