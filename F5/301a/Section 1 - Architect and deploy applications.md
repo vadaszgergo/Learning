@@ -62,6 +62,21 @@
 
 </details>
 <details><summary>Determine how IP addresses change when using a fully proxy deployment</summary>
+
+* Initial traffic
+
+| Source IP  | Destination IP |
+| ------------- | ------------- |
+| Client original IP  | Virtual Server IP  |
+| Automap or SNAT / SNAT Pool IP  | Backend server IP  |
+
+* Reply traffic
+
+| Source IP  | Destination IP |
+| ------------- | ------------- |
+| Backend server IP | Automap or SNAT / SNAT Pool IP  |
+| Virtual Server IP  | Client original IP  |
+
 </details>
 <details><summary>Plan the network considerations for one arm and two arm deployments</summary>
 </details>
