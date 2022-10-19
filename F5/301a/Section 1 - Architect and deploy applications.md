@@ -81,6 +81,19 @@
 <details><summary>Plan the network considerations for one arm and two arm deployments</summary>
 </details>
 <details><summary>Understand the importance of auto last-hop</summary>
+
+* https://support.f5.com/csp/article/K13876
+* Auto Last Hop is a setting that allows the BIG-IP system to track the source MAC address of incoming connections and return traffic from pools to the source MAC address, regardless of the routing table.
+
+|Object	|Scope	|Options	|Default setting	|Default setting definition|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+|Tunnel	|You can configure the setting on a per-Tunnel basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+|VLAN group	|You can configure the setting on a per-VLAN group basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+|VLAN	|You can configure the setting on a per-VLAN basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+|SNAT	|You can configure the setting on a per-SNAT basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+|NAT	|You can configure the setting on a per-NAT basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+|Virtual server	|You can configure the setting on a per-server basis.	|Default, Enabled, Disabled	|Default	|The system uses Global Auto Last Hop.|
+
 </details>
 
 ## 1.04 - Choose correct profiles and settings to fit application requirements
