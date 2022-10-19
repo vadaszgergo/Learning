@@ -22,7 +22,7 @@
 
 ## 1.03 - Identify the difference between deployments (one arm, two arm, npath, Direct Server Return/DSR)
 
-<details><summary>Identify configuration objects needed for L2/L3 npath routing</summary>
+<details><summary>~~Identify configuration objects needed for L2/L3 npath routing~~</summary>
 
 * L2 nPath:  
     - https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-local-traffic-manager-implementations-14-0-0/configuring-npath-routing.html
@@ -84,6 +84,7 @@
 
 * https://support.f5.com/csp/article/K13876
 * Auto Last Hop is a setting that allows the BIG-IP system to track the source MAC address of incoming connections and return traffic from pools to the source MAC address, regardless of the routing table.
+* When enabled, Auto Last Hop allows the BIG-IP system to send return traffic from pools to the MAC address that transmitted the request, even if the routing table points to a different network or interface. As a result, the BIG-IP system can send return traffic to clients even when there is no matching route. For example, if the BIG-IP system does not have a default route configured and the client is located on a remote network. 
 
 |Object	|Scope	|Options	|Default setting	|Default setting definition|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
