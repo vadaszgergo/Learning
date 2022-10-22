@@ -35,13 +35,21 @@
 
 <details><summary>Make use of port lockdown</summary>  
 
-https://support.f5.com/csp/article/K17333
+https://support.f5.com/csp/article/K17333  
 Control access level to each self IP. ICMP always allowed.  
 Allow Default, Allow All, Allow None, Allow Custom  
 When creating self IP, default lockdown is Allow None.  
 Allow Default: tcp/udp 4353, tcp 443-22, tcp/udp 161 (SNMP), tcp/udp 53, udp 1026 (network failover)
 </details>
-- Demonstrate how to restrict access to management interface
+
+<details><summary>Demonstrate how to restrict access to management interface</summary>
+
+Multiple ways to achive this.
+- HTTP access: modify /sys httpd allow add { <IP address or IP address range> }
+- Network firewall rules (System/Platform/Security)
+- SSH access - System/Platform/Configuration/SSH IP Allow
+- SSH access - modify /sys sshd allow add {<ip_addr> or <ip_range> }
+</details>
 - Demonstrate how to restrict access to virtual servers
 
 ## 2.07 - Determine how configuration changes affect existing and new connections
