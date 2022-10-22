@@ -2,7 +2,8 @@
 
 ## 2.01 - Determine how to secure Self IPs
 
-- Identify which administrative services need to be accessible
+<details><summary>Identify which administrative services need to be accessible</summary>  
+</details>
 - Identify which configuration objects are allowing accessibility
 - Identify which services must be enable for HA between devices
 
@@ -32,7 +33,13 @@
 
 ## 2.06 - Apply concepts required to use BIG-IP functionality to fulfill security requirements
 
-- Make use of port lockdown
+<details><summary>Make use of port lockdown</summary>  
+
+Control access level to each self IP. ICMP always allowed.  
+Allow Default, Allow All, Allow None, Allow Custom  
+When creating self IP, default lockdown is Allow None.  
+Allow Default: tcp/udp 4353, tcp 443-22, tcp/udp 161 (SNMP), tcp/udp 53, udp 1026 (network failover)
+</details>
 - Demonstrate how to restrict access to management interface
 - Demonstrate how to restrict access to virtual servers
 
