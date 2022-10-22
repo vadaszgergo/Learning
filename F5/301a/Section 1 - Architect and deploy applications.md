@@ -14,6 +14,9 @@
 ## 1.02 - Determine whether or not an application can be deployed with only the LTM module provisioned
 
 <details><summary>Identify the functionality of LTM configuration objects</summary>
+
+* https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/ltm-concepts-11-5-1/3.html
+
 </details>
 <details><summary>Identify LTM profile settings to deploy an application</summary>
 </details>
@@ -22,7 +25,7 @@
 
 ## 1.03 - Identify the difference between deployments (one arm, two arm, npath, Direct Server Return/DSR)
 
-<details><summary>~~Identify configuration objects needed for L2/L3 npath routing~~</summary>
+<details><summary>Identify configuration objects needed for L2/L3 npath routing</summary>
 
 * L2 nPath:  
     - https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-local-traffic-manager-implementations-14-0-0/configuring-npath-routing.html
@@ -187,6 +190,11 @@
 ## 1.11 - Describe how to deploy applications using iApp templates
 
 <details><summary>Recognize how to modify an application depoyed with an iApp</summary>
+
+* iApps -> Application Services -> Select the existing iApp -> Reconfigure tab
+
 </details>
 <details><summary>Identify objects created by an iApp</summary>
+
+* iApps -> Application Services -> Select the existing iApp -> Components tab shows the objects created by the iApp
 </details>
