@@ -35,6 +35,7 @@
 
 <details><summary>Make use of port lockdown</summary>  
 
+https://support.f5.com/csp/article/K17333
 Control access level to each self IP. ICMP always allowed.  
 Allow Default, Allow All, Allow None, Allow Custom  
 When creating self IP, default lockdown is Allow None.  
