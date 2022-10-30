@@ -69,7 +69,12 @@ Multiple ways to achive this.
 
 ## 2.09 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
 
-- Explain the different vCMP guest deployment states
+<details><summary>Explain the different vCMP guest deployment states</summary>
+
+- Configured: Initial and default state for a newly created guest. Not running, no resources allocated. If we change existing guest to this state from another, resources are deallocated, but virtual disks are not deleted.
+- Provisioned: Resources are allocated, if guest is new, then host allocates virtual disks and installs selected ISO image. A guest does not run while in Provisioned state. If changed from Deployed state, then it will be shutdown, but resources are going to stay as allocated.
+- Deployed: Host starts the guest and we can configure BIG-IP module within the guest.
+</details>
 - Discuss the relationship between CPU and memory on vCMP
 - Select which versions can run a guest given host version
 - Understand the relationship of network configuration objects between vCMP hosts and vCMP guests
