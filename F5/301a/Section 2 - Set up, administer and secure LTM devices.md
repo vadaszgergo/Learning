@@ -67,7 +67,7 @@ Multiple ways to achive this.
 - Explain the functionality of route domains
 - Summarize how the 3 technologies can be used together
 
-## 2.09 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
+## 2.10 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
 
 <details><summary>Explain the different vCMP guest deployment states</summary>
 
