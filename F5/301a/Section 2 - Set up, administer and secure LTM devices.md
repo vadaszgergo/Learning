@@ -66,10 +66,10 @@ Multiple ways to achive this.
 https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-systems-user-account-administration-14-0-0/user-roles.html  
 
 </details>
-- Discuss the benefits of administrative partitions
-- Apply user roles to administrative partitions
-- Explain the functionality of route domains
-- Summarize how the 3 technologies can be used together
+- Discuss the benefits of administrative partitions  
+- Apply user roles to administrative partitions  
+- Explain the functionality of route domains  
+- Summarize how the 3 technologies can be used together  
 
 ## 2.09 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
 
