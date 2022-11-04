@@ -71,6 +71,7 @@ https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-systems-user-account-administr
 - Explain the functionality of route domains  
 - Summarize how the 3 technologies can be used together  
 
+
 ## 2.09 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
 
 <details><summary>Explain the different vCMP guest deployment states</summary>
