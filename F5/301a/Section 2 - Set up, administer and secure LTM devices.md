@@ -66,6 +66,7 @@ Multiple ways to achive this.
 https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-systems-user-account-administration-14-0-0/user-roles.html  
 
 </details>
+
 - Discuss the benefits of administrative partitions  
 - Apply user roles to administrative partitions  
 - Explain the functionality of route domains  
