@@ -61,13 +61,17 @@ Multiple ways to achive this.
 
 ## 2.08 - Explain the uses of user roles, administrative partitions, and route domains
 
-- Explain how to restrict access to LTM using user roles
+<details><summary>Explain how to restrict access to LTM using user roles</summary>
+
+https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-systems-user-account-administration-14-0-0/user-roles.html  
+
+</details>
 - Discuss the benefits of administrative partitions
 - Apply user roles to administrative partitions
 - Explain the functionality of route domains
 - Summarize how the 3 technologies can be used together
 
-## 2.10 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
+## 2.09 - Determine how to deploy or upgrade vCMP guests and how the resources are distributed
 
 <details><summary>Explain the different vCMP guest deployment states</summary>
 
