@@ -54,10 +54,10 @@ Multiple ways to achive this.
 
 ## 2.07 - Determine how configuration changes affect existing and new connections
 
-- Predict persistence for existing connections
-- Calculate when changes will affect the connections
-- Predict load balancing and persistence for new connections
-- Determine the impact of virtual server configuration change on traffic
+- Predict persistence for existing connections  
+- Calculate when changes will affect the connections  
+- Predict load balancing and persistence for new connections  
+- Determine the impact of virtual server configuration change on traffic  
 
 ## 2.08 - Explain the uses of user roles, administrative partitions, and route domains
 
