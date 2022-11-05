@@ -4,8 +4,8 @@
 
 <details><summary>Identify which administrative services need to be accessible</summary>  
 </details>
-- Identify which configuration objects are allowing accessibility
-- Identify which services must be enable for HA between devices
+- Identify which configuration objects are allowing accessibility  
+- Identify which services must be enable for HA between devices  
 
 ## 2.02 - Determine how to secure virtual servers
 
