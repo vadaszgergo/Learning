@@ -51,6 +51,7 @@ Multiple ways to achive this.
 - SSH access - System/Platform/Configuration/SSH IP Allow
 - SSH access - modify /sys sshd allow add {<ip_addr> or <ip_range> }
 </details>
+
 - Demonstrate how to restrict access to virtual servers
 
 ## 2.07 - Determine how configuration changes affect existing and new connections
