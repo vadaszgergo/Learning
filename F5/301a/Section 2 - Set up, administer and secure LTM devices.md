@@ -4,6 +4,7 @@
 
 <details><summary>Identify which administrative services need to be accessible</summary>  
 </details>
+
 - Identify which configuration objects are allowing accessibility  
 - Identify which services must be enable for HA between devices  
 
