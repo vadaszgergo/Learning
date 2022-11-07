@@ -20,7 +20,21 @@
 - Restrict access using packet filters
 </details>
 
-- Compare and contrast different virtual server types
+<details><summary>Compare and contrast different virtual server types</summary>
+
+- https://support.f5.com/csp/article/K55185917  
+- Standard  
+- Forwarding (Layer2)  
+- Forwarding (IP)  
+- Performance (Layer4)  
+- Performance (HTTP)  
+- Stateless  
+- Reject  
+- DHCP  
+- Internal  
+- Message Routing  
+</details>
+
 - Identify LTM profile settings to limit access to virtual server resources
 
 ## 2.03 - Determine how to perform basic device configuration
