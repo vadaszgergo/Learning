@@ -10,7 +10,16 @@
 
 ## 2.02 - Determine how to secure virtual servers
 
-- Determine how to limit access to virtual servers
+<details><summary>Determine how to limit access to virtual servers</summary>
+
+- https://support.f5.com/csp/article/K42075438  
+- Only allow specific source IP/range under the Virtual Server configuration page  
+- Defined addresses in Shared Objects/Address List Section  
+- Restring access using local traffic policies  
+- Restrict access using iRules
+- Restrict access using packet filters
+</details>
+
 - Compare and contrast different virtual server types
 - Identify LTM profile settings to limit access to virtual server resources
 
