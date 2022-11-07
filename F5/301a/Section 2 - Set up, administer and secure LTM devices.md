@@ -20,8 +20,8 @@
 - Determine how to limit administrative access to LTM devices (GUI/CLI)
 <details><summary>Identify how to restrict access to administrative partitions</summary>
 
-- System/Users --> Limit access to specific partition per user, or configure Remote Role Groups and restrict Group to specific partition 
-
+- System/Users --> Limit access to specific partition per user, or configure Remote Role Groups and restrict Group to specific partition  
+- create auth user user2 { partition-access add { app1 { role application-editor } } password passwordhere }
 
 </details>
 
