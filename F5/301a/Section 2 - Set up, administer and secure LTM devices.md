@@ -23,7 +23,6 @@
 - Limit access to tmsh/shell/None for CLI
 - https://techdocs.f5.com/en-us/bigip-14-0-0/big-ip-systems-user-account-administration-14-0-0/user-roles.html
 </details>
-
 <details><summary>Identify how to restrict access to administrative partitions</summary>
 
 - System/Users --> Limit access to specific partition per user, or configure Remote Role Groups and restrict Group to specific partition  
