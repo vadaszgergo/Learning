@@ -16,7 +16,14 @@
 
 ## 2.03 - Determine how to perform basic device configuration
 
-- Identify how to sync time/date amongst LTM devices
+<details><summary>Identify how to sync time/date amongst LTM devices</summary>
+
+- Manual date/time setup: https://support.f5.com/csp/article/K3381 
+- Configure NTP https://support.f5.com/csp/article/K13380  
+- Checking and troubleshooting NTP https://support.f5.com/csp/article/K10240  
+
+</details>
+
 <details><summary>Determine how to limit administrative access to LTM devices (GUI/CLI)</summary>
 
 - Limit access through User Roles
