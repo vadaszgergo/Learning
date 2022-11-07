@@ -18,7 +18,12 @@
 
 - Identify how to sync time/date amongst LTM devices
 - Determine how to limit administrative access to LTM devices (GUI/CLI)
-- Identify how to restrict access to administrative partitions
+<details><summary>Identify how to restrict access to administrative partitions</summary>
+
+- System/Users --> Limit access to specific partition per user, or configure Remote Role Groups and restrict Group to specific partition 
+
+
+</details>
 
 ## 2.04 - Determine how to perform a software upgrade while maintaining application availability
 
