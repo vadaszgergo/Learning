@@ -13,7 +13,6 @@
 - Device Trust between boxes
 - Device Group: Sync-Failover / Sync-Only
 - Traffic Group: collectio of objects that can float over to the other F5  
-
 - Config Sync IP address  
 - Failover IP address  
 - Mirroring IP address  
