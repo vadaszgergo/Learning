@@ -6,7 +6,18 @@
 </details>
 
 - Identify which configuration objects are allowing accessibility  
-- Identify which services must be enable for HA between devices  
+
+<details><summary>Identify which services must be enable for HA between devices</summary>  
+
+- https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-device-service-clustering-admin-11-6-0/1.html  
+- Device Trust between boxes
+- Device Group: Sync-Failover / Sync-Only
+- Traffic Group: collectio of objects that can float over to the other F5  
+
+- Config Sync IP address  
+- Failover IP address  
+- Mirroring IP address  
+</details>
 
 ## 2.02 - Determine how to secure virtual servers
 
@@ -35,7 +46,12 @@
 - Message Routing  
 </details>
 
-- Identify LTM profile settings to limit access to virtual server resources
+<details><summary>Identify LTM profile settings to limit access to virtual server resources</summary>
+
+- https://support.f5.com/csp/article/K23843660  
+- SSL profile: client authentication, disabling ciphers  
+- Authentication profile: Radius, TACACS+, LDAP, SSL OCSP  
+</details>
 
 ## 2.03 - Determine how to perform basic device configuration
 
