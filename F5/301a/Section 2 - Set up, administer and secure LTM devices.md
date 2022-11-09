@@ -9,13 +9,13 @@
 
 <details><summary>Identify which services must be enable for HA between devices</summary>  
 
-- https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-device-service-clustering-admin-11-6-0/1.html  
+- https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-device-service-clustering-admin-11-6-0/1.html
 - Device Trust between boxes
 - Device Group: Sync-Failover / Sync-Only
-- Traffic Group: collectio of objects that can float over to the other F5  
-- Config Sync IP address  
-- Failover IP address  
-- Mirroring IP address  
+- Traffic Group: collectio of objects that can float over to the other F5
+- Config Sync IP address
+- Failover IP address 
+- Mirroring IP address
 </details>
 
 ## 2.02 - Determine how to secure virtual servers
