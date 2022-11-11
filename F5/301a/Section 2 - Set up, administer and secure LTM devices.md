@@ -3,6 +3,9 @@
 ## 2.01 - Determine how to secure Self IPs
 
 <details><summary>Identify which administrative services need to be accessible</summary>  
+
+- 
+
 </details>
 
 - Identify which configuration objects are allowing accessibility  
@@ -12,7 +15,7 @@
 - https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-device-service-clustering-admin-11-6-0/1.html
 - Device Trust between boxes
 - Device Group: Sync-Failover / Sync-Only
-- Traffic Group: collectio of objects that can float over to the other F5
+- Traffic Group: collection of objects that can float over to the other F5
 - Config Sync IP address
 - Failover IP address 
 - Mirroring IP address
@@ -76,7 +79,7 @@
 
 ## 2.04 - Determine how to perform a software upgrade while maintaining application availability
 
-- Identify proper steps to avoid downtime while upgrading LTM softwre
+- Identify proper steps to avoid downtime while upgrading LTM software
 - Determine necessary steps for migrating LTM configuration to new hardware
 - Understand implications of stopping BIG-IP services
 
@@ -113,7 +116,18 @@ Multiple ways to achive this.
 - Predict persistence for existing connections  
 - Calculate when changes will affect the connections  
 - Predict load balancing and persistence for new connections  
-- Determine the impact of virtual server configuration change on traffic  
+
+<details><summary>Determine the impact of virtual server configuration change on traffic</summary>
+
+- https://support.f5.com/csp/article/K13253  
+- Changing the destination ip or port doesn't kill existing traffic  
+- Changing the virtual server type kills existing traffic (Standard to Perf HTTP for example)
+- Changing the HTTP profile doesn't kill existing traffic  
+- Changing the TCP profile kills existing traffic
+- Changing or removing client SSL profile kills existing traffic
+- Adding or removing OneConnect setting kills existing traffic
+
+</details>
 
 ## 2.08 - Explain the uses of user roles, administrative partitions, and route domains
 
