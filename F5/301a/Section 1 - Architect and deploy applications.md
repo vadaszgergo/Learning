@@ -19,6 +19,8 @@
 
 </details>
 <details><summary>Identify LTM profile settings to deploy an application</summary>
+
+* https://support.f5.com/csp/article/K23843660  
 </details>
 <details><summary>Determine capabilities of LTM configuration objects</summary>
 </details>
