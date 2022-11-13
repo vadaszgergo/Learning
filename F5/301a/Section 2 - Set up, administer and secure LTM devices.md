@@ -126,6 +126,7 @@ Multiple ways to achive this.
 - Changing the TCP profile kills existing traffic
 - Changing or removing client SSL profile kills existing traffic
 - Adding or removing OneConnect setting kills existing traffic
+- Check existing connections: show sys connection /filters like cs-client-addr, ss-server-port, etc/
 
 </details>
 
